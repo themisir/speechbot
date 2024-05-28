@@ -4,3 +4,5 @@ services:
       context: .
       dockerfile: Dockerfile
     image: speechbot
+    env_file:
+      - .env
